@@ -1,0 +1,27 @@
+.history {
+  overflow-y: auto;
+  max-height: 100%;
+}
+
+.history h3 {
+  margin: 0 0 8px;
+  font-size: 1.2rem;
+  color: #dfdfdf;
+}
+
+.history ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.history li {
+  padding: 4px 0;
+  border-bottom: 1px solid #ddd;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.history li:last-child {
+  border-bottom: none;
+}

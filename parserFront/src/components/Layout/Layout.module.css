@@ -1,0 +1,39 @@
+.container {
+  display: grid;
+  grid-template-areas:
+    "codeEditor history"
+    "output history";
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 3fr 1fr;
+  gap: 0.6vw;
+  /* padding: 1.3vw; */
+  height: 100vh;
+  width: 98vw;
+  margin: 0 auto;
+}
+
+.codeEditor {
+  grid-area: codeEditor;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  padding: 1.3vw;
+  overflow-y: auto;
+}
+
+.history {
+  grid-area: history;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  padding: 1.3rem;
+}
+
+.output {
+  grid-area: output;
+  background: #282c34;
+  color: #fff;
+  border-radius: 0.5rem;
+  padding: 1.3rem;
+  font-family: monospace;
+}
