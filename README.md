@@ -6,9 +6,9 @@
 
 - [Описание](#описание)
 - [Предварительные требования](#предварительные-требования)
+- [Структура проекта](#структура-проекта)
 - [Установка](#установка)
 - [Запуск тестов](#запуск-тестов)
-- [Структура проекта](#структура-проекта)
 
 ## Описание
 
@@ -21,6 +21,21 @@
 - Python 3.7+
 - Google Chrome (последняя версия)
 - Git
+
+## Структура проекта
+
+```plaintext
+.
+├── drivers
+│   └── chromedriver_win64
+│       └── chromedriver.exe
+├── src
+│   └── selenium_tests.py
+├── venv
+├── README.md
+├── requirements.txt
+└── package.json
+```
 
 ## Установка
 
@@ -71,18 +86,3 @@
    ```sh
    python -m unittest discover -s tests/selenium/src
    ```
-
-## Структура проекта
-
-```plaintext
-.
-├── drivers
-│   └── chromedriver_win64
-│       └── chromedriver.exe
-├── src
-│   └── selenium_tests.py
-├── venv
-├── README.md
-├── requirements.txt
-└── package.json
-```
